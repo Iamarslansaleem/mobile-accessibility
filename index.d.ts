@@ -1,4 +1,4 @@
-import { IonicNativePlugin } from '@awesome-cordova-plugins/core';
+import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
 /**
  * @name Mobile Accessibility
  * @description
@@ -18,7 +18,7 @@ import { IonicNativePlugin } from '@awesome-cordova-plugins/core';
  *
  * ```
  */
-export declare class MobileAccessibilityOriginal extends IonicNativePlugin {
+export declare class MobileAccessibilityOriginal extends AwesomeCordovaNativePlugin {
     MobileAccessibilityNotifications: {
         ANNOUNCEMENT: 'ANNOUNCEMENT';
         BOLD_TEXT_STATUS_CHANGED: 'BOLD_TEXT_STATUS_CHANGED';

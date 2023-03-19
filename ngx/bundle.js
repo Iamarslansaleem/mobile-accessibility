@@ -44,6 +44,6 @@ var MobileAccessibility = /** @class */ (function (_super) {
         { type: core$1.Injectable }
     ];
     return MobileAccessibility;
-}(core.IonicNativePlugin));
+}(core.AwesomeCordovaNativePlugin));
 
 exports.MobileAccessibility = MobileAccessibility;
